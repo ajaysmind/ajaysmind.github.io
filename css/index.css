@@ -1,18 +1,24 @@
 body {
   font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  background-color: #f4f1de; /* Biege color */
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
 h1 {
+  color: #3d405b; /* grayish blue */
   margin-top: 20px;
+}
+
+h3 {
+  color: #81b29a; /* light green */
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin-top: 20px;
 }
 
 nav ul li {
@@ -22,12 +28,23 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  background-color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
-  color: black;
+  background-color: #e07a5f; /* warm red */
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 nav ul li a:hover {
-  background-color: lightgray;
+  background-color: #3d405b; /* dark blue for contrast */
+  transform: scale(1.1); /*  makes the button button bigger on hover */
+}
+
+nav {
+  background-color: #f2cc8f; /* gold tone */
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
 }
