@@ -1,0 +1,45 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    background-color: #ffe6f2; /* soft pink */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #ff1493; /* bright pink */
+    margin-top: 20px;
+  }
+  
+  img {
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* adds shadow for depth*/
+  }
+  
+  p {
+    font-size: 18px;
+    color: #b03060; /* deep pink for contrast */
+    max-width: 600px; /* makes it a uniform paragraph*/
+    margin: 0 auto;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ff69b4; /* pink for the button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s; /* allows for smooth transition when transforming (when hovering) */
+  }
+  
+  a:hover {
+    background-color: #ff1493; /* darker pink for contrast */
+    transform: scale(1.1); /* makes button bigger when hovering */
+  }
+  
