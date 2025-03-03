@@ -1,0 +1,44 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    background-color: #d0f0fd; /* Light blue for the ocean */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #034efc; /* ocean blue */
+    margin-top: 20px;
+  }
+  
+  img {
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    font-size: 18px;
+    color: #055a8c; /* muted blue */
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #0288d1; /* brighter blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s; /* allowing for smoother transition */
+  }
+  
+  a:hover {
+    background-color: #034efc; /* darker blue */
+    transform: scale(1.1); /* make button larger when hovering*/
+  }
+  
