@@ -1,0 +1,44 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    background-color: #e6f7ff; /* light blue color */
+    text-align: center; /* centering text*/
+    margin: 0;
+    padding: 0; 
+  }
+  
+  h1 {
+    color: #3d405b; /* grayish blue */
+    margin-top: 20px;
+  }
+  
+  img {
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* adds shadow style for some depth */
+  }
+  
+  p {
+    font-size: 18px;
+    color: #4f6d7a; /* blue ish gray color */
+    max-width: 600px; /* makes it a nice size paragraph*/
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #e07a5f; /* warm red */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  a:hover {
+    background-color: #3d405b; /* Dark blue to contrast */
+    transform: scale(1.1); /* make it bigger when hovering */
+  }
+  
