@@ -1,0 +1,44 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    background-color: #fdf5e6; /* Wcream color for a tropical look */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #ff6700; /* Bright orange */
+    margin-top: 20px;
+  }
+  
+  img {
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* adds shadow for depth*/
+  }
+  
+  p {
+    font-size: 18px;
+    color: #5a3d1e; /* rainforesty brown */
+    max-width: 600px; /* makes it a nice size paragraph*/
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ffb400; /* golden yellow */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s; /* allows for smooth transition when transforming (when hovering) */
+  }
+  
+  a:hover {
+    background-color: #ff6700; /* bright orange */
+    transform: scale(1.1); /* makes it bigger when hovering */
+  }
+  
